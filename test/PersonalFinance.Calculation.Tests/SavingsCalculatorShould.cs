@@ -1,6 +1,6 @@
 ﻿using FluentAssertions;
 
-namespace Personal.Finance.Calculation.Tests
+namespace PersonalFinance.Calculation.Tests
 {
     public class SavingsCalculatorShould
     {

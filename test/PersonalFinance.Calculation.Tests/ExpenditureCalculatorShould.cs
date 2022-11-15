@@ -1,8 +1,8 @@
 using FluentAssertions;
-using Personal.Finance.Domain;
-using PersonalFinanceCalculators;
+using PersonalFinance.Domain;
+using PersonalFinance.Calculation;
 
-namespace Personal.Finance.Calculation.Tests
+namespace PersonalFinance.Calculation.Tests
 {
     public class ExpenditureCalculatorShould
     {

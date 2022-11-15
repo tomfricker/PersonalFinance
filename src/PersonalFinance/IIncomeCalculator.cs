@@ -1,4 +1,4 @@
-﻿namespace Personal.Finance.Calculation
+﻿namespace PersonalFinance.Calculation
 {
     public interface IIncomeCalculator
     {

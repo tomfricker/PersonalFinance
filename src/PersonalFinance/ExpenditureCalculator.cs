@@ -1,7 +1,7 @@
-﻿using Personal.Finance.Calculation;
-using Personal.Finance.Domain;
+﻿using PersonalFinance.Calculation;
+using PersonalFinance.Domain;
 
-namespace PersonalFinanceCalculators
+namespace PersonalFinance.Calculation
 {
     public class ExpenditureCalculator : IExpenditureCalculator
     {

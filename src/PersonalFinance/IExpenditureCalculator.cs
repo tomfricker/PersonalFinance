@@ -1,6 +1,6 @@
-﻿using Personal.Finance.Domain;
+﻿using PersonalFinance.Domain;
 
-namespace Personal.Finance.Calculation
+namespace PersonalFinance.Calculation
 {
     public interface IExpenditureCalculator
     {

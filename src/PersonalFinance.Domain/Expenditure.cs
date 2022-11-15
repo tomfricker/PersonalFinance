@@ -1,4 +1,4 @@
-﻿namespace Personal.Finance.Domain
+﻿namespace PersonalFinance.Domain
 {
     public class Expenditure
     {
