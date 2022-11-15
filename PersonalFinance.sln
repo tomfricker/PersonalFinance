@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalFinance.Calculation", "src\Personal.Finance\PersonalFinance.Calculation.csproj", "{16B4E8C3-6638-495A-AD5E-C79C63E91F34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ACD61ABB-5260-4ADB-9141-27E4C204C46E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalFinance.Domain", "src\Personal.Finance.Domain\PersonalFinance.Domain.csproj", "{9F65CDBA-ED7C-43E1-8509-B9BBE45855DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalFinance.Calculation.Tests", "test\Personal.Finance.Calculation.Tests\PersonalFinance.Calculation.Tests.csproj", "{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16B4E8C3-6638-495A-AD5E-C79C63E91F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B4E8C3-6638-495A-AD5E-C79C63E91F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B4E8C3-6638-495A-AD5E-C79C63E91F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B4E8C3-6638-495A-AD5E-C79C63E91F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F65CDBA-ED7C-43E1-8509-B9BBE45855DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F65CDBA-ED7C-43E1-8509-B9BBE45855DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F65CDBA-ED7C-43E1-8509-B9BBE45855DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F65CDBA-ED7C-43E1-8509-B9BBE45855DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19DF8CCB-866D-4826-B0CB-5EAB3D50B8C7} = {ACD61ABB-5260-4ADB-9141-27E4C204C46E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {147D1F0F-1C19-45D9-AD0E-59F9F1F5322A}
+	EndGlobalSection
+EndGlobal
